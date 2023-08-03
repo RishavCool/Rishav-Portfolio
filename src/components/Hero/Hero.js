@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <>
@@ -12,14 +16,17 @@ const Hero = (props) => (
           Hello <br />
           I'm Rishav
         </SectionTitle>
-        <SectionText>
-          Web Developer & Devops Engineer
-        </SectionText>
-        <Button onClick={()=>{window.open('Resume.pdf','_blank')}}>Download Resume</Button>
+        <SectionText>Web Developer & Devops Engineer</SectionText>
+        <Button
+          onClick={() => {
+            window.open("Resume.pdf", "_blank");
+          }}
+        >
+          Download Resume
+        </Button>
       </LeftSection>
     </Section>
   </>
 );
-
 
 export default Hero;

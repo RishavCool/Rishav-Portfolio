@@ -1,8 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const BackgroundAnimation = () => (
   <div>
-    <img className="Mypic" src="RishavPic.png" width="400"></img>
+    <img
+      className="Mypic"
+      src="RishavPic.png"
+      width="300"
+      style={{
+        zIndex: 99,
+        position: "absolute",
+        padding: 0,
+        margin: 50,
+      }}
+    ></img>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
