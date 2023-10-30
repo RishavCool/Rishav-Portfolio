@@ -18,14 +18,19 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-          <NavLink><a href="#projects">Projects</a></NavLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
       </li>
       <li>
-
-          <NavLink><a href="#tech">Technologies</a></NavLink>
+        <Link href="#tech">
+          <NavLink>Technologies</NavLink>
+        </Link>
       </li>
       <li>
-          <NavLink><a href="#about">About</a></NavLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>

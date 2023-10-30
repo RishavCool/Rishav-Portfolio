@@ -16,12 +16,15 @@ const Hero = (props) => (
           Hello <br />
           I'm Rishav
         </SectionTitle>
-        <SectionText>Software Developer</SectionText>
-        <a 
-          href="https://drive.google.com/file/d/1W5Kj0rJLMctalBXsORVy7RoKkBJIVajL/view?usp=sharing" target="_blank" className="btn-1">
+        <SectionText>Web Developer & Devops Engineer</SectionText>
+        <Button
+          onClick={() => {
+            window.open("Resume.pdf", "_blank");
+          }}
+        >
           Download Resume
-        </a>
-      </LeftSection> <br/>
+        </Button>
+      </LeftSection>
     </Section>
   </>
 );
